@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Practices for Encoding Abstract Data Using Vibrotactile Patterns</title>
+  <link rel="stylesheet" href="style_base_layout.css">
+  <link rel="stylesheet" href="style_final_corrected.css">
+</head>
+<body>
+
+  <nav class="top-nav">
+    <a href="#">Design Patterns Survey</a>
+    <a href="#">Summary Table</a>
+    <a href="#">Spreadsheet of Classification</a>
+    <a href="#">PRISMA Flow Diagram</a>
+    <a href="#">Categorization Template</a>
+  </nav>
+
+  <header>
+    <h1>Design Practices for Encoding Abstract Data Using Vibrotactile Patterns: A Systematic Review</h1>
+  </header>
+
+  <div class="main-layout">
+    
+    <!-- Sidebar com Year Filter e filtros de dimensões -->
+    <aside id="sidebar">
+      <div class="year-filter">
+        <h3>Year of Publication</h3>
+        <select id="filterYear">
+          <option value="">All Years</option>
+          <!-- Anos inseridos dinamicamente pelo script.js -->
+        </select>
+      </div>
+
+      <!-- Aqui os filtros por dimensão serão carregados dinamicamente pelo script.js -->
+    </aside>
+
+    <!-- Área de resultados -->
+    <main id="results-area">
+      <div id="counter"></div>
+      <div id="results"></div>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

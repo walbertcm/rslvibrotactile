@@ -1,0 +1,120 @@
+
+
+/* Cores suaves aplicadas às seções dos filtros (dimensões) */
+
+.datatype-group {
+  background-color: #e6f4ea; /* verde claro suave */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.datadimension-group {
+  background-color: #e1f3f6; /* azul claro suave */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.elements-group {
+  background-color: #ede7f6; /* roxo muito claro */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.parameters-group {
+  background-color: #fff4e6; /* laranja claro suave */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.tasks-group {
+  background-color: #fff8e1; /* amarelo muito claro */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.location-group {
+  background-color: #e7f1fc; /* azul bebê */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.evaluation-group {
+  background-color: #fce4ec; /* rosa muito claro */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilo geral da organização dos filtros */
+
+.dimension-group h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+}
+
+.dimension-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Estilização das tags nos cards */
+
+.tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+/* Cores das tags correspondendo às dimensões */
+
+.tag-datatype {
+  background-color: #28a745;
+}
+
+.tag-datadimension {
+  background-color: #17a2b8;
+}
+
+.tag-elements {
+  background-color: #6f42c1;
+}
+
+.tag-parameters {
+  background-color: #fd7e14;
+}
+
+.tag-tasks {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.tag-location {
+  background-color: #007bff;
+}
+
+.tag-evaluation {
+  background-color: #e83e8c;
+}
+

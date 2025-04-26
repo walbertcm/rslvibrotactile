@@ -1,0 +1,63 @@
+
+/* Cores das tags e blocos de filtros por dimensão */
+
+.tag-datatype, .datatype-group {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.tag-datadimension, .datadimension-group {
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+.tag-elements, .elements-group {
+  background-color: #6f42c1;
+  color: #ffffff;
+}
+
+.tag-parameters, .parameters-group {
+  background-color: #fd7e14;
+  color: #ffffff;
+}
+
+.tag-tasks, .tasks-group {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.tag-location, .location-group {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.tag-evaluation, .evaluation-group {
+  background-color: #e83e8c;
+  color: #ffffff;
+}
+
+/* Estilização adicional para melhorar o visual */
+
+.dimension-group {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.dimension-group h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
